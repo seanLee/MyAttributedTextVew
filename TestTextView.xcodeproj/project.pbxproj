@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD52F91F1EBCBFA500F429A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD52F91E1EBCBFA500F429A4 /* main.m */; };
+		AD52F9221EBCBFA500F429A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD52F9211EBCBFA500F429A4 /* AppDelegate.m */; };
+		AD52F9251EBCBFA500F429A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD52F9241EBCBFA500F429A4 /* ViewController.m */; };
+		AD52F9281EBCBFA500F429A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD52F9261EBCBFA500F429A4 /* Main.storyboard */; };
+		AD52F92A1EBCBFA500F429A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD52F9291EBCBFA500F429A4 /* Assets.xcassets */; };
+		AD52F92D1EBCBFA500F429A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD52F92B1EBCBFA500F429A4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD52F91A1EBCBFA500F429A4 /* TestTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD52F91E1EBCBFA500F429A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD52F9201EBCBFA500F429A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD52F9211EBCBFA500F429A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD52F9231EBCBFA500F429A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD52F9241EBCBFA500F429A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD52F9271EBCBFA500F429A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD52F9291EBCBFA500F429A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD52F92C1EBCBFA500F429A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD52F92E1EBCBFA500F429A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD52F9171EBCBFA500F429A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD52F9111EBCBFA400F429A4 = {
+			isa = PBXGroup;
+			children = (
+				AD52F91C1EBCBFA500F429A4 /* TestTextView */,
+				AD52F91B1EBCBFA500F429A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD52F91B1EBCBFA500F429A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD52F91A1EBCBFA500F429A4 /* TestTextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD52F91C1EBCBFA500F429A4 /* TestTextView */ = {
+			isa = PBXGroup;
+			children = (
+				AD52F9201EBCBFA500F429A4 /* AppDelegate.h */,
+				AD52F9211EBCBFA500F429A4 /* AppDelegate.m */,
+				AD52F9231EBCBFA500F429A4 /* ViewController.h */,
+				AD52F9241EBCBFA500F429A4 /* ViewController.m */,
+				AD52F9261EBCBFA500F429A4 /* Main.storyboard */,
+				AD52F9291EBCBFA500F429A4 /* Assets.xcassets */,
+				AD52F92B1EBCBFA500F429A4 /* LaunchScreen.storyboard */,
+				AD52F92E1EBCBFA500F429A4 /* Info.plist */,
+				AD52F91D1EBCBFA500F429A4 /* Supporting Files */,
+			);
+			path = TestTextView;
+			sourceTree = "<group>";
+		};
+		AD52F91D1EBCBFA500F429A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD52F91E1EBCBFA500F429A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD52F9191EBCBFA500F429A4 /* TestTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD52F9311EBCBFA500F429A4 /* Build configuration list for PBXNativeTarget "TestTextView" */;
+			buildPhases = (
+				AD52F9161EBCBFA500F429A4 /* Sources */,
+				AD52F9171EBCBFA500F429A4 /* Frameworks */,
+				AD52F9181EBCBFA500F429A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTextView;
+			productName = TestTextView;
+			productReference = AD52F91A1EBCBFA500F429A4 /* TestTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD52F9121EBCBFA400F429A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sean;
+				TargetAttributes = {
+					AD52F9191EBCBFA500F429A4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AD52F9151EBCBFA400F429A4 /* Build configuration list for PBXProject "TestTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD52F9111EBCBFA400F429A4;
+			productRefGroup = AD52F91B1EBCBFA500F429A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD52F9191EBCBFA500F429A4 /* TestTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD52F9181EBCBFA500F429A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD52F92D1EBCBFA500F429A4 /* LaunchScreen.storyboard in Resources */,
+				AD52F92A1EBCBFA500F429A4 /* Assets.xcassets in Resources */,
+				AD52F9281EBCBFA500F429A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD52F9161EBCBFA500F429A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD52F9251EBCBFA500F429A4 /* ViewController.m in Sources */,
+				AD52F9221EBCBFA500F429A4 /* AppDelegate.m in Sources */,
+				AD52F91F1EBCBFA500F429A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD52F9261EBCBFA500F429A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD52F9271EBCBFA500F429A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD52F92B1EBCBFA500F429A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD52F92C1EBCBFA500F429A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD52F92F1EBCBFA500F429A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD52F9301EBCBFA500F429A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD52F9321EBCBFA500F429A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sean.debt.TestTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD52F9331EBCBFA500F429A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sean.debt.TestTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD52F9151EBCBFA400F429A4 /* Build configuration list for PBXProject "TestTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD52F92F1EBCBFA500F429A4 /* Debug */,
+				AD52F9301EBCBFA500F429A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD52F9311EBCBFA500F429A4 /* Build configuration list for PBXNativeTarget "TestTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD52F9321EBCBFA500F429A4 /* Debug */,
+				AD52F9331EBCBFA500F429A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD52F9121EBCBFA400F429A4 /* Project object */;
+}
